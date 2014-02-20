@@ -6559,6 +6559,14 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   background-repeat: no-repeat;
 }
 
+#msdigitalscreen-title{
+  background: url("../img/msdigitalscreen-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 #niu-title{
   background: url("../img/niu-title.jpg");
   background-size: cover;
