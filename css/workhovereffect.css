@@ -26,13 +26,13 @@
    text-align: center;
    position: relative;
    letter-spacing: 1px;
-   font-size: 1.2rem;
-   padding: 10px;
+   font-size: 1rem;
+   padding: 8px;
    background: rgba(0, 0, 0, 0.8);
    margin: 20px 0 0 0;
 }
 .view p {
-   font-size: 0.8rem;
+   font-size: 0.6rem;
    position: relative;
    color: #fff;
    padding: 10px 20px 20px;
@@ -45,6 +45,7 @@
    border: solid 2px rgb(88, 78, 78);
    color: rgb(88, 78, 78);
    text-transform: uppercase;
+   font-size: 0.8rem;
 }
 .view a.info: hover {
    -webkit-box-shadow: 0 0 5px #000;

@@ -1,0 +1,243 @@
+
+/* Work Cover Section */
+.work-cover-section 
+{
+  height: 50vh;
+}
+
+
+
+/* Work Title Section */
+.work-title-section 
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white; 
+}
+
+.work-title-section h2
+{
+  font-family: "Raleway", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1rem;
+  color: rgb(88, 78, 78); /* purple */
+ 
+}
+
+.work-title-section h1
+{
+  font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 2.5rem;
+  color: rgb(88, 78, 78);
+}
+
+
+/* Work Content Section */
+.work-description-section
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: justify;
+  background-color: white; /* yellow */
+  border-top: 1px solid rgba(88, 78, 78, 0.2);
+  border-bottom: 1px solid rgba(88, 78, 78, 0.2);
+}
+
+.work-description-section #client
+{
+  float: left;
+  padding-left: 20px;
+}
+
+.work-description-section #role
+{
+  float: right;
+  padding-right: 20px;
+}
+
+.work-description-section .secondary-text
+{
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.work-description-section h1
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing:2px;
+}
+
+.work-details-section
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+
+.work-details-section h1
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing:2px;
+  line-height: 1rem;
+}
+
+.work-details-section p
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing:0.3px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.work-content-section
+{
+  padding-bottom: 40px;
+  background-color: white; 
+  position: relative;
+  text-align: center;
+}
+
+
+.work-content-section h1
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing:2px;
+}
+
+.work-content-section h2
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing:2px;
+}
+
+.work-content-article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work-content-article img{
+  height: 100%;
+  width: 100%;
+}
+
+.work-content-article p{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing:0.3px;
+  text-align: justify;  
+}
+
+
+.work-contact-section
+{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.other-work h3
+{
+  font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing:1px;
+  text-align: center;
+  line-height: 0.8rem;
+  padding-top: 20px;
+}
+
+.other-work h4
+{
+  font-family: "AvenirBookOblique", "Open Sans", "Helvetica", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing:1px;
+  text-align: center;
+  line-height: 0.8rem;
+  padding-bottom: 20px;
+}
+
+
+#itposter-title{
+  background: url("../img/itposter-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#win8microsite-title{
+  background: url("../img/win8microsite-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#pocketlocker-title{
+  background: url("../img/pocketlocker-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#msdigitalscreen-title{
+  background: url("../img/msdigitalscreen-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#niu-title{
+  background: url("../img/niu-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#projectspotlight-title{
+  background: url("../img/projectspotlight-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#arccheckin-title{
+  background: url("../img/arccheckin-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#spot-title{
+  background: url("../img/spot-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#readline-title{
+  background: url("../img/readline-title.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
