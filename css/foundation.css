@@ -1798,7 +1798,7 @@ meta.foundation-mq-topbar {
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #333333; 
+        background: #333333;
         font-size: 1rem;}
       .top-bar-section .dropdown li label {
         white-space: nowrap;
@@ -5532,9 +5532,9 @@ th.hide-for-touch {
  * use that code if you want a percentuage from 50% to 100%
  *
  */
- 
+
 /*COLOR and STYLES (note: you can use gradients for the class full_bar_color)*/
-.full_bar_color { 
+.full_bar_color {
 background: rgb(62, 172, 168);
 }
 /*start pie chart code*/
@@ -6092,18 +6092,18 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   background: url("../img/title-img2.jpg") no-repeat center;
   background-size: cover;
   height: 700px;
-  width: 100%; 
+  width: 100%;
   position: fixed;
   z-index: -1;
 }
 
 #title-section #title-content{
-  position: absolute; 
+  position: absolute;
   width: 100%;
   height: 25%;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
- 
+
 }
 
 #title-section #title-content .title-line-top{
@@ -6144,14 +6144,14 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   padding-top: 40px;
 }
 
-  
+
 #title-section h1{
   font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 3.5rem;
   letter-spacing:20px;
   text-align: center;
-  color: white; 
+  color: white;
   text-shadow: 0px 0px 6px #878787;
 }
 
@@ -6392,16 +6392,103 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 
 
 
+// Small screens
+@media only screen {
+  .timeline{
+    background-image: none;
+    height: 426px;
+    margin: auto;
+    width: 100%;
+  }
+
+
+  #experience-section .timeline .points
+  {
+    width: 100%;
+    margin: 0px 0px 88px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+
+  }
+
+
+  #experience-section .dot{
+    background: url("../img/timeline-circle.png") scroll center center transparent;
+    height: 36px;
+    width: 36px;
+    margin: 0px 0px 0px -18px;
+    left: 15%;
+    position: absolute;
+  }
+
+
+  #experience-section .timeline .points .title{
+    width: 100%;
+    float: right;
+    text-align: left;
+  }
+
+
+  #experience-section .timeline .points:nth-child(2n) .title{
+    float: right;
+    text-align: left;
+  }
+
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+  .timeline{
+    background-image: none;
+    height: 426px;
+    margin: auto;
+    width: 100%;
+  }
+
+
+  #experience-section .timeline .points
+  {
+    width: 100%;
+    margin: 0px 0px 88px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+
+  }
+
+
+  #experience-section .dot{
+    background: url("../img/timeline-circle.png") scroll center center transparent;
+    height: 36px;
+    width: 36px;
+    margin: 0px 0px 0px -18px;
+    left: 15%;
+    position: absolute;
+  }
+
+
+  #experience-section .timeline .points .title{
+    width: 100%;
+    padding-left: 25%;
+    float: right;
+    text-align: left;
+  }
+
+
+  #experience-section .timeline .points:nth-child(2n) .title{
+    float: right;
+    text-align: left;
+  }
+
+} /* max-width */
+
 
 
 // Medium screens
-@media only screen and (min-width: 40.063em) { 
+@media only screen and (min-width: 40.063em) {
 
 } /* min-width 641px, medium screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-
-
-
