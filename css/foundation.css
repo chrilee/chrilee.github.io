@@ -6394,6 +6394,19 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 
 // Small screens
 @media only screen {
+  #title-section h1{
+    font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing:10px;
+
+  }
+
+  #title-section h2{
+    font-size: 1.2rem;
+    letter-spacing:10px;
+  }
+
   .timeline{
     background-image: none;
     height: 426px;
@@ -6411,7 +6424,6 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     display: block;
 
   }
-
 
   #experience-section .dot{
     background: url("../img/timeline-circle.png") scroll center center transparent;
@@ -6435,7 +6447,7 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     text-align: left;
   }
 
-  
+
   #persona-section h3{
     font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
     text-transform: uppercase;
@@ -6448,6 +6460,19 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
+  #title-section h1{
+    font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing:5px;
+
+  }
+
+  #title-section h2{
+    font-size: 1.2rem;
+    letter-spacing:5px;
+  }
+
   .timeline{
     background-image: none;
     height: 426px;
