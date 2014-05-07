@@ -1,6 +1,6 @@
 
 /* Work Cover Section */
-.work-cover-section 
+.work-cover-section
 {
   height: 50vh;
 }
@@ -8,11 +8,11 @@
 
 
 /* Work Title Section */
-.work-title-section 
+.work-title-section
 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: white; 
+  background-color: white;
 }
 
 .work-title-section h2
@@ -24,7 +24,7 @@
   text-align: center;
   line-height: 1rem;
   color: rgb(88, 78, 78); /* purple */
- 
+
 }
 
 .work-title-section h1
@@ -106,7 +106,7 @@
 .work-content-section
 {
   padding-bottom: 40px;
-  background-color: white; 
+  background-color: white;
   position: relative;
   text-align: center;
 }
@@ -142,7 +142,7 @@
   font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
   font-size: 0.8rem;
   letter-spacing:0.3px;
-  text-align: justify;  
+  text-align: justify;
 }
 
 
@@ -240,4 +240,45 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+// Small Screen
+@media only screen and (max-width: 40em) {
+  .work-cover-section
+  {
+    height: 400px;
+  }
+
+  .work-description-section #client
+  {
+    text-align: center;
+    padding-left: none;
+  }
+
+  .work-description-section #role
+  {
+    text-align: center;
+    padding-left: none;
+  }
+}
+
+@media only screen {
+  .work-cover-section
+  {
+    height: 400px;
+  }
+
+  .work-description-section #client
+  {
+    text-align: center;
+    padding-left: none;
+    float: none;
+  }
+
+  .work-description-section #role
+  {
+    text-align: center;
+    padding-left: none;
+    float: none;
+  }
 }
