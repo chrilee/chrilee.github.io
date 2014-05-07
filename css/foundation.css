@@ -6462,7 +6462,7 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   #experience-section .timeline .points
   {
     width: 100%;
-    margin: 0px 0px 88px;
+    margin: 0px 0px 66px;
     overflow: hidden;
     position: relative;
     display: block;
@@ -6489,6 +6489,11 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   #experience-section .timeline .points:nth-child(2n) .title{
     float: right;
     text-align: left;
+  }
+
+  #experience-section h2
+  {
+    line-height: 1rem;
   }
 
   #contact-section{
@@ -6568,7 +6573,7 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   #experience-section .timeline .points
   {
     width: 100%;
-    margin: 0px 0px 88px;
+    margin: 0px 0px 66px;
     overflow: hidden;
     position: relative;
     display: block;
@@ -6596,6 +6601,11 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
   #experience-section .timeline .points:nth-child(2n) .title{
     float: right;
     text-align: left;
+  }
+
+  #experience-section h2
+  {
+    line-height: 1rem;
   }
 
   #contact-section{
