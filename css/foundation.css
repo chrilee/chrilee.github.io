@@ -6381,10 +6381,6 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 
 
 
-
-
-
-
 .submenu-list a{
   font-size: 0.8rem !important;
 }
@@ -6394,6 +6390,15 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 
 // Small screens
 @media only screen {
+  #title-section
+  {
+    height: 500px;
+  }
+
+  #title-bkg{
+    height: 500px;
+  }
+
   #title-section h1{
     font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
     text-transform: uppercase;
@@ -6505,6 +6510,15 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
+  #title-section
+  {
+    height: 500px;
+  }
+
+  #title-bkg{
+    height: 500px;
+  }
+  
   #title-section h1{
     font-family: "RalewayBold", "Open Sans", "Helvetica", Arial, sans-serif;
     text-transform: uppercase;
