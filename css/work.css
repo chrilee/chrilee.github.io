@@ -55,12 +55,14 @@
 {
   float: left;
   padding-left: 20px;
+  text-align: left;
 }
 
 .work-description-section #role
 {
   float: right;
   padding-right: 20px;
+  text-align: right;
 }
 
 .work-description-section .secondary-text
@@ -249,17 +251,7 @@
     height: 400px;
   }
 
-  .work-description-section #client
-  {
-    text-align: center;
-    padding-left: none;
-  }
 
-  .work-description-section #role
-  {
-    text-align: center;
-    padding-left: none;
-  }
 }
 
 @media only screen {
@@ -268,17 +260,4 @@
     height: 400px;
   }
 
-  .work-description-section #client
-  {
-    text-align: center;
-    padding-left: none;
-    float: none;
-  }
-
-  .work-description-section #role
-  {
-    text-align: center;
-    padding-left: none;
-    float: none;
-  }
 }
