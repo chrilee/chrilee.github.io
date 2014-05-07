@@ -6407,6 +6407,50 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     letter-spacing:10px;
   }
 
+  .section-heading
+  {
+    font-size: 2rem;
+    letter-spacing:7px;
+  }
+
+  #persona-section
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #persona-section p{
+    font-size: 1rem;
+    letter-spacing:0.2px;
+    text-align: center;
+  }
+
+  #persona-icon{
+    width: 50%;
+    height: 50%;
+  }
+
+  #persona-section h3{
+    font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing:2px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #work-section
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #experience-section
+  {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
   .timeline{
     background-image: none;
     height: 426px;
@@ -6447,15 +6491,11 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     text-align: left;
   }
 
-
-  #persona-section h3{
-    font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 0.6rem;
-    letter-spacing:2px;
-    text-align: center;
-    padding-bottom: 30px;
+  #contact-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
+
 
 } /* Define mobile styles */
 
@@ -6473,6 +6513,50 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     letter-spacing:5px;
   }
 
+  .section-heading
+  {
+    font-size: 2rem;
+    letter-spacing:7px;
+  }
+
+  #persona-section
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #persona-section p{
+    font-size: 1rem;
+    letter-spacing:0.2px;
+    text-align: center;
+  }
+
+  #persona-icon{
+    width: 50%;
+    height: 50%;
+  }
+
+  #persona-section h3{
+    font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing:0.6px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #work-section
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #experience-section
+  {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
   .timeline{
     background-image: none;
     height: 426px;
@@ -6488,7 +6572,6 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     overflow: hidden;
     position: relative;
     display: block;
-
   }
 
 
@@ -6515,17 +6598,27 @@ head ~ body:nth-of-type(1):nth-last-of-type(1) .pagedImages {
     text-align: left;
   }
 
+  #contact-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+} /* max-width */
 
-  #persona-section h3{
-    font-family: "RalewayMedium", "Open Sans", "Helvetica", Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 0.6rem;
-    letter-spacing:2px;
-    text-align: center;
-    padding-bottom: 30px;
+
+//Small - Medium Screen
+@media only screen and (min-width: 26em) and (max-width: 40.06em){
+
+  #persona-icon{
+    width: 50%;
+    height: 50%;
   }
 
-} /* max-width */
+  #persona-section h3{
+    font-size: 3rem;
+    letter-spacing:1px;
+  }
+
+} /* End of Small/Medium Screen */
 
 
 
