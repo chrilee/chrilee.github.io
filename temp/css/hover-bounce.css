@@ -1,0 +1,53 @@
+@keyframes hover-over {
+    0% {padding: 10px; left: 0px; top: 0px; opacity: 0.7; }
+    50% {padding: 16px; left: -6px; top: -6px; opacity: 1; }
+    100% {padding: 13px; left: -3px; top: -3px; opacity: 1; }
+}
+@-webkit-keyframes hover-over {
+    0% {padding: 10px; left: 0px; top: 0px; opacity: 0.7; }
+    50% {padding: 16px; left: -6px; top: -6px; opacity: 1; }
+    100% {padding: 13px; left: -3px; top: -3px; opacity: 1; }
+}
+@keyframes hover-out {
+    0% {padding: 13px; left: -3px; top: -3px; opacity: 1; }
+    50% {padding: 16px; left: -6px; top: -6px; opacity: 1; }
+    100% {padding: 10px; left: 0px; top: 0px; opacity: 0.7; }
+}
+@-webkit-keyframes hover-out {
+    0% {padding: 13px; left: -3px; top: -3px; opacity: 1; }
+    50% {padding: 16px; left: -6px; top: -6px; opacity: 1; }
+    100% {padding: 10px; left: 0px; top: 0px; opacity: 0.7; }
+}
+
+.bounce-cnt {
+    position: relative;
+}
+.bounce-r {
+    animation-name: hover-out;
+    animation-duration: 0.2;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: hover-out;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+}
+/*#the-button {
+    border: 5px solid #000;
+    background: #eee;
+}*/
+.bounce-r:hover {
+    animation-name: hover-over;
+    animation-duration: 0.2;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: hover-over;
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+}
